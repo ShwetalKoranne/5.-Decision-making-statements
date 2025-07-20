@@ -1,0 +1,24 @@
+// Name - Shwetal Koranne
+// PRN - 24070123106
+// Batch - EnTC B2
+// EXP 5.1
+
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+    int num;
+    cout<<"Enter a number: ";
+    cin >> num;
+
+    if (num % 2 == 0)
+    {cout<< "Number is Even";}
+    else
+    {cout<< "Number is Odd";}
+}
+
+/* OUTPUT
+Enter a number: 7
+Number is Odd
+*/
