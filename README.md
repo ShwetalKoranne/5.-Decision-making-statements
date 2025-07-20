@@ -16,7 +16,7 @@ This program identifies whether an input character is a vowel or consonant. Vowe
 
 This program finds the largest among three given numbers using nested conditional statements. It compares each number against the other two sequentially. Uses multiple if conditions with nested ifs to check all possibilities. The logic checks all possible combinations of number magnitudes.
 
--->Program-4: Information Displayer
+-->Program-4: Switch Case:  Information Displayer
 
 This program is a menu-driven application that uses a while loop and switch-case statement to display personal information based on user input.
 Based on the value of choice, the corresponding case executes and displays:
