@@ -1,0 +1,28 @@
+// Name - Shwetal Koranne
+// PRN - 24070123106
+// Batch - EnTC B2
+// EXP 5.2
+
+#include<iostream>
+using namespace std;
+
+int main() 
+{
+    char alpha;
+    cout<<"Enter a character: ";
+    cin>>alpha;
+    
+    if (alpha=='A' || alpha=='E' || alpha=='I' || alpha=='O'|| alpha=='U' || alpha=='a' || alpha=='e' || alpha=='i' || alpha=='o'|| alpha=='u') 
+    {
+     cout<<"Character is vowel";
+    }
+    else
+    {
+    cout<<"Character is constant";
+    }
+}
+
+/* OUTPUT
+Enter a character: o
+Character is vowel
+*/
