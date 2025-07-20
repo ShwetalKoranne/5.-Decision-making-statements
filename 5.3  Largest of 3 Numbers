@@ -1,0 +1,36 @@
+// Name - Shwetal Koranne
+// PRN - 24070123106
+// Batch - EnTC B2
+// EXP 5.3
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a, b, c;
+
+    cout << "Enter three numbers: ";
+    cin >> a >> b >> c;
+
+    if (a >= b) {
+        if (a >= c) {
+            cout << "Greatest number is: " << a;
+        } else {
+            cout << "Greatest number is: " << c;
+        }
+    } else {
+        if (b >= c) {
+            cout << "Greatest number is: " << b;
+        } else {
+            cout << "Greatest number is: " << c;
+        }
+    }
+
+    return 0;
+}
+
+/* OUTPUT 
+Enter three numbers: 4 8 1
+Greatest number is: 8
+*/
